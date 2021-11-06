@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_feature_title_and_texts",
+  "info": {
+    "name": "Feature title and text",
+    "icon": "equals"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

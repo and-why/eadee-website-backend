@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_blocks_full_page_blocks",
+  "info": {
+    "name": "full page title block",
+    "icon": "dice-two",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "button_text": {
+      "type": "string"
+    },
+    "button_aside_text": {
+      "type": "string"
+    },
+    "anotation": {
+      "type": "string"
+    },
+    "scroll_link": {
+      "type": "boolean"
+    },
+    "subtitle": {
+      "type": "richtext"
+    }
+  }
+}

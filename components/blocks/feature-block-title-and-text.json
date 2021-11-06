@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_blocks_feature_block_title_and_texts",
+  "info": {
+    "name": "Features container title and text",
+    "icon": "th-list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "feature_block_title_text": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.feature-title-and-text"
+    },
+    "background_colour": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "black",
+        "dark",
+        "white",
+        "gray",
+        "lightgray",
+        "mediumgray",
+        "green",
+        "blue"
+      ]
+    },
+    "rough_edge": {
+      "type": "enumeration",
+      "enum": [
+        "top",
+        "bottom",
+        "none",
+        "both"
+      ]
+    }
+  }
+}

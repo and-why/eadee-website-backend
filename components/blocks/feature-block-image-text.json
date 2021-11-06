@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_blocks_feature_block_image_texts",
+  "info": {
+    "name": "feature block image text",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "button_text": {
+      "type": "string"
+    },
+    "direction": {
+      "type": "enumeration",
+      "enum": [
+        "row",
+        "column"
+      ]
+    },
+    "button_url": {
+      "type": "string"
+    }
+  }
+}

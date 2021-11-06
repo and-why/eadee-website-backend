@@ -1,0 +1,60 @@
+{
+  "collectionName": "components_blocks_coloured_blocks",
+  "info": {
+    "name": "Features Container Image and Text",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "feature_block_image_text": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.feature-block-image-text"
+    },
+    "background_colour": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "black",
+        "dark",
+        "gray",
+        "lightgray",
+        "mediumgray",
+        "white",
+        "blue",
+        "green"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "direction": {
+      "type": "enumeration",
+      "enum": [
+        "row",
+        "column"
+      ],
+      "default": "row"
+    },
+    "text_color": {
+      "type": "enumeration",
+      "enum": [
+        "white",
+        "dark",
+        "gray",
+        "lightgray"
+      ],
+      "default": "dark"
+    },
+    "rough_edge": {
+      "type": "enumeration",
+      "enum": [
+        "top",
+        "bottom",
+        "both",
+        "none"
+      ]
+    }
+  }
+}

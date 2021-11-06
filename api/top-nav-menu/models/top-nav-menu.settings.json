@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "top_nav_menus",
+  "info": {
+    "name": "top-nav-menu",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "body": {
+      "type": "dynamiczone",
+      "components": [
+        "menu.link"
+      ]
+    }
+  }
+}
