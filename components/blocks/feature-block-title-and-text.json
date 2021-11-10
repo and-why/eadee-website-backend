@@ -34,6 +34,9 @@
         "none",
         "both"
       ]
+    },
+    "title": {
+      "type": "string"
     }
   }
 }

@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "top_nav_menus",
+  "collectionName": "footer_navs",
   "info": {
-    "name": "top-nav-menu",
+    "name": "footer-nav",
     "description": ""
   },
   "options": {
@@ -12,7 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "body": {
+    "nav_menus": {
+      "type": "dynamiczone",
+      "components": [
+        "menu.nav-menu",
+        "menu.link"
+      ]
+    },
+    "legal_menu": {
       "type": "dynamiczone",
       "components": [
         "menu.link"
@@ -29,6 +36,9 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "name": {
+      "type": "string"
     }
   }
 }
