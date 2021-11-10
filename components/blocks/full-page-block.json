@@ -16,14 +16,14 @@
     "button_aside_text": {
       "type": "string"
     },
-    "anotation": {
-      "type": "string"
-    },
     "scroll_link": {
       "type": "boolean"
     },
     "subtitle": {
       "type": "richtext"
+    },
+    "button_url": {
+      "type": "string"
     }
   }
 }

@@ -29,14 +29,6 @@
     "title": {
       "type": "string"
     },
-    "direction": {
-      "type": "enumeration",
-      "enum": [
-        "row",
-        "column"
-      ],
-      "default": "row"
-    },
     "text_color": {
       "type": "enumeration",
       "enum": [
@@ -54,6 +46,13 @@
         "bottom",
         "both",
         "none"
+      ]
+    },
+    "layout": {
+      "type": "enumeration",
+      "enum": [
+        "rows",
+        "columns"
       ]
     }
   }

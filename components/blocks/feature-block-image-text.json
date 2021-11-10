@@ -28,15 +28,15 @@
     "button_text": {
       "type": "string"
     },
-    "direction": {
-      "type": "enumeration",
-      "enum": [
-        "row",
-        "column"
-      ]
-    },
     "button_url": {
       "type": "string"
+    },
+    "image_text_direction": {
+      "type": "enumeration",
+      "enum": [
+        "normal",
+        "reverse"
+      ]
     }
   }
 }
