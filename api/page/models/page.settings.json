@@ -36,7 +36,14 @@
       "type": "string"
     },
     "slug": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "is_homepage": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
