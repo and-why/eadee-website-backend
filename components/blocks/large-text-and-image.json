@@ -12,7 +12,6 @@
       "via": "related",
       "allowedTypes": [
         "images",
-        "files",
         "videos"
       ],
       "plugin": "upload",
@@ -27,7 +26,8 @@
       "enum": [
         "left",
         "right"
-      ]
+      ],
+      "required": true
     }
   }
 }

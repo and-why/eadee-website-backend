@@ -37,6 +37,9 @@
         "normal",
         "reverse"
       ]
+    },
+    "content": {
+      "type": "richtext"
     }
   }
 }
