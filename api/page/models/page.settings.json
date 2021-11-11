@@ -28,8 +28,7 @@
         "blocks.feature-block-image-text",
         "blocks.full-page-block",
         "blocks.full-width",
-        "blocks.feature-block-title-and-text",
-        "blocks.feature-title-and-text"
+        "blocks.feature-block-title-and-text"
       ]
     },
     "page_title": {
@@ -40,10 +39,11 @@
       "required": true,
       "unique": true
     },
-    "is_homepage": {
-      "type": "boolean",
-      "default": false,
-      "required": true
+    "heading": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "text"
     }
   }
 }

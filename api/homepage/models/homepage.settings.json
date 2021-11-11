@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "name": "Homepage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "page_title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "Header": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.full-page-block",
+        "blocks.banner-image-and-text"
+      ]
+    },
+    "Body": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.full-page-block",
+        "blocks.banner-image-and-text",
+        "blocks.full-width",
+        "blocks.coloured-block",
+        "blocks.feature-block-title-and-text",
+        "blocks.large-text-and-image"
+      ]
+    }
+  }
+}
