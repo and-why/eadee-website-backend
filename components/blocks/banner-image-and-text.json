@@ -7,10 +7,10 @@
   },
   "options": {},
   "attributes": {
-    "Heading": {
+    "heading": {
       "type": "string"
     },
-    "Subheading": {
+    "subheading": {
       "type": "text"
     },
     "media": {
@@ -31,9 +31,28 @@
     "text_placement": {
       "type": "enumeration",
       "enum": [
-        "left",
-        "right",
+        "start",
+        "end",
         "center"
+      ]
+    },
+    "button_url": {
+      "type": "string"
+    },
+    "background_colour": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "black",
+        "dark",
+        "gray",
+        "gray_light",
+        "gray_dark",
+        "gray_medium",
+        "white",
+        "blue",
+        "green",
+        "red"
       ]
     }
   }

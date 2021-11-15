@@ -19,11 +19,13 @@
         "black",
         "dark",
         "gray",
-        "lightgray",
-        "mediumgray",
+        "gray_light",
+        "gray_dark",
+        "gray_medium",
         "white",
         "blue",
-        "green"
+        "green",
+        "red"
       ]
     },
     "title": {
@@ -32,10 +34,17 @@
     "text_color": {
       "type": "enumeration",
       "enum": [
-        "white",
+        "primary",
+        "black",
         "dark",
         "gray",
-        "lightgray"
+        "gray_light",
+        "gray_dark",
+        "gray_medium",
+        "white",
+        "blue",
+        "green",
+        "red"
       ],
       "default": "dark"
     },

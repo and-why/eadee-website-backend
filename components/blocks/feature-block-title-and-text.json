@@ -18,12 +18,14 @@
         "primary",
         "black",
         "dark",
-        "white",
         "gray",
-        "lightgray",
-        "mediumgray",
+        "gray_light",
+        "gray_dark",
+        "gray_medium",
+        "white",
+        "blue",
         "green",
-        "blue"
+        "red"
       ]
     },
     "rough_edge": {
