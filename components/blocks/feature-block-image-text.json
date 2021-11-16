@@ -40,6 +40,9 @@
     },
     "content": {
       "type": "richtext"
+    },
+    "wistia_video_script": {
+      "type": "text"
     }
   }
 }

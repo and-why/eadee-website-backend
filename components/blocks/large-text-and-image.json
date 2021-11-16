@@ -28,6 +28,9 @@
         "right"
       ],
       "required": true
+    },
+    "wistia_video_script": {
+      "type": "text"
     }
   }
 }
