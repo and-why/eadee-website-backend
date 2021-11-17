@@ -43,6 +43,10 @@
     },
     "wistia_video_script": {
       "type": "text"
+    },
+    "anchor_id": {
+      "type": "string",
+      "regex": "^[a-zA-Z0-9-_]+$"
     }
   }
 }
