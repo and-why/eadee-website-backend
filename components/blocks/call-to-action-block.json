@@ -1,0 +1,71 @@
+{
+  "collectionName": "components_blocks_call_to_action_blocks",
+  "info": {
+    "name": "call to action block",
+    "icon": "bullhorn",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "button_text": {
+      "type": "string"
+    },
+    "button_url": {
+      "type": "string"
+    },
+    "button_aside": {
+      "type": "string"
+    },
+    "background_colour": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "gray",
+        "gray_light",
+        "gray_medium",
+        "gray_dark",
+        "dark",
+        "black",
+        "blue",
+        "red",
+        "green",
+        "white"
+      ]
+    },
+    "button_colour": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "gray",
+        "gray_light",
+        "gray_medium",
+        "gray_dark",
+        "dark",
+        "black",
+        "blue",
+        "red",
+        "green",
+        "white"
+      ]
+    },
+    "button_text_colour": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "gray",
+        "gray_light",
+        "gray_medium",
+        "gray_dark",
+        "dark",
+        "black",
+        "blue",
+        "red",
+        "green",
+        "white"
+      ]
+    }
+  }
+}

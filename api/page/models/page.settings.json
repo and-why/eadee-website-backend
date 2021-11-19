@@ -28,7 +28,8 @@
         "blocks.feature-block-image-text",
         "blocks.full-page-block",
         "blocks.full-width",
-        "blocks.feature-block-title-and-text"
+        "blocks.feature-block-title-and-text",
+        "blocks.call-to-action-block"
       ]
     },
     "page_title": {
