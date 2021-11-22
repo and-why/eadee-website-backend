@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "pricings",
+  "info": {
+    "name": "Pricing",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "plan": {
+      "type": "component",
+      "repeatable": true,
+      "component": "price.plan"
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "price.benefits"
+    },
+    "pricing_notes": {
+      "type": "text"
+    }
+  }
+}

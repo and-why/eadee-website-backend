@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_price_benefits",
+  "info": {
+    "name": "benefits",
+    "icon": "joint",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "benefit": {
+      "type": "string"
+    }
+  }
+}
