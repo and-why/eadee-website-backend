@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_blocks_text_and_medias",
+  "info": {
+    "name": "Text and media",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "button_text": {
+      "type": "string"
+    },
+    "button_url": {
+      "type": "string"
+    },
+    "button_colour": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "gray",
+        "gray_light",
+        "gray_medium",
+        "gray_dark",
+        "dark",
+        "black",
+        "blue",
+        "red",
+        "green",
+        "white"
+      ]
+    },
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "text_direction": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_stats",
+  "info": {
+    "name": "Stat",
+    "icon": "percentage"
+  },
+  "options": {},
+  "attributes": {
+    "stat_number": {
+      "type": "string"
+    },
+    "Symbol": {
+      "type": "enumeration",
+      "enum": [
+        "percent",
+        "times"
+      ]
+    },
+    "stat_description": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_stats_blocks",
+  "info": {
+    "name": "Stats block",
+    "icon": "percent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.stat"
+    }
+  }
+}

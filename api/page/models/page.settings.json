@@ -16,7 +16,16 @@
       "type": "dynamiczone",
       "components": [
         "blocks.full-page-block",
-        "blocks.banner-image-and-text"
+        "blocks.banner-image-and-text",
+        "blocks.call-to-action-block",
+        "blocks.full-width",
+        "blocks.coloured-block",
+        "blocks.feature-title-and-text",
+        "blocks.feature-block-title-and-text",
+        "blocks.feature-block-image-text",
+        "blocks.large-text-and-image",
+        "blocks.text-and-media",
+        "blocks.stats-block"
       ]
     },
     "Body": {
@@ -29,7 +38,10 @@
         "blocks.full-page-block",
         "blocks.full-width",
         "blocks.feature-block-title-and-text",
-        "blocks.call-to-action-block"
+        "blocks.call-to-action-block",
+        "blocks.text-and-media",
+        "blocks.feature-title-and-text",
+        "blocks.stats-block"
       ]
     },
     "page_title": {
